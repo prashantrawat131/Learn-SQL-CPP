@@ -23,3 +23,18 @@
 6. You can check my [c_cpp_properties.json](./.vscode/c_cpp_properties.json) and [tasks.json](./.vscode/tasks.json) file for reference.
 
 7. Now you can run the code like you usually do in VS code.
+
+
+## How to run the file
+
+- Step 1: Open the terminal in the current directory
+
+- Step 2: Run the following command
+    ```
+    g++ -o program main.cpp studentdb.cpp -lsqlite3
+    ```
+
+- Step 3: Run the program
+    ```
+    ./program.exe
+    ```
